@@ -8,7 +8,6 @@
 		./lsp.nix
 		./cmp.nix
    		./luasnip.nix
-		./treesitter.nix
 	];
  
 	extraConfigLua = /* lua */ ''
