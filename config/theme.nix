@@ -1,3 +1,7 @@
 {
-  colorschemes.catppuccin.enable = true;
+ config={
+   colorschemes.catppuccin = {
+     enable = true;
+   };
+ }; 
 }
