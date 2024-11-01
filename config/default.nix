@@ -2,7 +2,7 @@
 	imports = [
 		./autoclose.nix
 		./cmp.nix
-		./colors.nix
+		#./colors.nix
 		./lsp.nix
 		./lualine.nix
 		./set.nix
