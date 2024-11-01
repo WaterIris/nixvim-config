@@ -1,13 +1,9 @@
 {
 	imports = [
-		./set.nix
-		./lualine.nix
-		./colors.nix
 		./autoclose.nix
-		./cmp.nix
-		./lsp.nix
-		./treesitter.nix
-		./luasnip.nix
+		./colors.nix
+		./lualine.nix
+		./set.nix
 	];
  
 	extraConfigLua = /* lua */ ''
