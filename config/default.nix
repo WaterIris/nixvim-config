@@ -4,7 +4,7 @@
 		./colors.nix
 		./lualine.nix
 		./set.nix
-		#./treesitter.nix
+		./treesitter.nix
 	];
  
 	extraConfigLua = /* lua */ ''
