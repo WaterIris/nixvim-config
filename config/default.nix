@@ -1,6 +1,7 @@
 {
   imports = [
   ./set.nix
+  ./lualine.nix
   ];
  
   extraConfigLua = /* lua */ ''
