@@ -1,13 +1,12 @@
 {
   config = {
     highlight = {
-      RainbowRed.fg = "#E06C75";
-      RainbowYellow.fg = "#E5C07B";
-      RainbowBlue.fg = "#61AFEF";
-      RainbowOrange.fg = "#D19A66";
-      RainbowGreen.fg = "#98C379";
-      RainbowViolet.fg = "#C678DD";
-      RainbowCyan.fg = "#56B6C2";
+      Red.fg = "#e28c8c";
+      Yellow.fg = "#eadda0";
+      Blue.fg = "#a4b9ef";
+      Orange.fg = "#f9c096";
+      Green.fg = "#b3e1a4";
+      Violet.fg = "#c6aae8";
     };
 
     colorschemes.catppuccin = {
@@ -62,7 +61,6 @@
           "RainbowOrange"
           "RainbowGreen"
           "RainbowViolet"
-          "RainbowCyan"
         ];
       };
     };
