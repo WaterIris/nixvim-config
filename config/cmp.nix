@@ -25,63 +25,6 @@
             "<C-y>" = /* lua */ "cmp.mapping.confirm({select = true})";
             "<CR>" = /* lua */ "cmp.mapping.confirm({select = false})";
 
-            "<C-f>" = /* lua */ ''
-              cmp.mapping(
-                function(fallback)
-                  local luasnip = require 'luasnip'
-                  if luasnip.jumpable(1) then
-                    luasnip.jump(1)
-                  else
-                    fallback()
-                  end
-                end,
-                { "i", "s" }
-              )
-            '';
-
-            "<C-b>" = /* lua */ ''
-              cmp.mapping(
-                function(fallback)
-                  local luasnip = require 'luasnip'
-                  if luasnip.jumpable(-1) then
-                    luasnip.jump(-1)
-                  else
-                    fallback()
-                  end
-                end,
-                { "i", "s" }
-              )
-            '';
-
-            "<Tab>" = /* lua */ ''
-              cmp.mapping(
-                function(fallback)
-                  local col = vim.fn.col('.') - 1
-
-                  if cmp.visible() then
-                    cmp.select_next_item(select_opts)
-                  elseif col == 0 or vim.fn.getline('.'):sub(col, col):match('%s') then
-                    fallback()
-                  else
-                    cmp.complete()
-                  end
-                end,
-                { "i", "s" }
-              )
-            '';
-
-            "<S-Tab>" = /* lua */ ''
-              cmp.mapping(
-                function(fallback)
-                  if cmp.visible() then
-                    cmp.select_prev_item(select_opts)
-                  else
-                    fallback()
-                  end
-                end,
-                { "i", "s" }
-              )
-            '';
         };
 
         sources = [
