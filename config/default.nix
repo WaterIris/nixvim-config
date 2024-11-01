@@ -1,6 +1,8 @@
 {
   imports = [
     ./set.nix
+    ./autoclose.nix
+    ./colors.nix
   ];
 
   plugins = {
