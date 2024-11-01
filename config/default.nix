@@ -2,6 +2,8 @@
   imports = [
   ./set.nix
   ./lualine.nix
+  ./colors.nix
+  ./autoclose.nix
   ];
  
   extraConfigLua = /* lua */ ''
