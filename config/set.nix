@@ -1,6 +1,5 @@
 {
 	config = {
-		clipboard.providers.xclip.enable = true;
 		clipboard.register = "unnamedplus";
 		
 		opts = {
