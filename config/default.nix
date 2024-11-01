@@ -1,5 +1,6 @@
 {
 	imports = [
+		./set.nix
 		./autoclose.nix
 		./lualine.nix
 		./comment.nix
