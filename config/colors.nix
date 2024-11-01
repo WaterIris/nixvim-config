@@ -9,11 +9,11 @@
         show_end_of_buffer = true;
 
         integrations = {
-          cmp = true;
-          gitsigns = true;
-          neotree = true;
-          treesitter = true;
-          indent_blankline.enabled = true;
+		  # cmp = true;
+          # gitsigns = true;
+          # neotree = true;
+          # treesitter = true;
+          # indent_blankline.enabled = true;
           native_lsp = {
             enabled = true;
             inlay_hints = {
