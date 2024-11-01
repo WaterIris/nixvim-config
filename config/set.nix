@@ -1,19 +1,18 @@
 {
-  config = {
-    opts = {
-      number = true;
-      relativenumber = true;
+	config = {
+		clipboard.register = "unnamedplus";
+		clipboard.providers.xclip.enable = true;
+		
+		opts = {
+			number = true;
+			relativenumber = true;
 
-      tabstop = 4;
-      softtabstop = 4;
-      shiftwidth = 4;
+			tabstop = 4;
+			softtabstop = 4;
+			shiftwidth = 4;
 
-      scrolloff = 8;
-      signcolumn = "yes";
-
-    };
-
-    clipboard.register = "unnamedplus";
-	clipboard.providers.xclip.enable = true;
-  };
+			scrolloff = 8;
+			signcolumn = "yes";
+		};
+	};
 }
