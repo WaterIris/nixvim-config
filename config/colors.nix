@@ -18,7 +18,7 @@
         show_end_of_buffer = true;
 
         integrations = {
-          treesitter = true;
+          # treesitter = true;
           cmp = true;
           gitsigns = true;
           illuminate = {
