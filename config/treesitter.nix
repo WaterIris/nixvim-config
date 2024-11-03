@@ -15,10 +15,10 @@
       ];
 
       highlight.enable = true;
-      # indent.enable = true;
+      indent.enable = true;
     };
 
-    # nixvimInjections = true;
+    nixvimInjections = true;
   };
-  # plugins.treesitter-context.enable = true;
+  plugins.treesitter-context.enable = true;
 }
