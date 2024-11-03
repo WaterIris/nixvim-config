@@ -6,7 +6,7 @@
     ./lualine.nix
     ./cmp.nix
     ./lsp.nix
-    ./treesitter.nix
+    #./treesitter.nix
   ];
 
   plugins = {
