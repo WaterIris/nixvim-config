@@ -11,6 +11,7 @@
 
   plugins = {
     comment.enable = true;
+    guess-indent.enable = true;
   };
 
   extraConfigLua = /* lua */ ''
