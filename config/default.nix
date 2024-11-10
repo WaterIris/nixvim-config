@@ -7,6 +7,8 @@
     ./cmp.nix
     ./lsp.nix
     ./treesitter.nix
+    ./wilder.nix
+    ./barbecue.nix
   ];
 
   plugins = {
