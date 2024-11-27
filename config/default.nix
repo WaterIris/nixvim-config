@@ -1,6 +1,7 @@
 {
   imports = [
     ./set.nix
+    ./rebind.nix
     ./colors.nix
     ./autoclose.nix
     ./lualine.nix
@@ -10,6 +11,7 @@
     ./wilder.nix
     ./barbecue.nix
     ./colorizer.nix
+    ./telescope.nix
   ];
 
   plugins = {
