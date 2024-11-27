@@ -9,6 +9,7 @@
     ./treesitter.nix
     ./wilder.nix
     ./barbecue.nix
+    ./colorizer.nix
   ];
 
   plugins = {
