@@ -12,6 +12,7 @@
     ./barbecue.nix
     ./colorizer.nix
     ./telescope.nix
+    ./indent_blankline.nix
   ];
 
   plugins = {
