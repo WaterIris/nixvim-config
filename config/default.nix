@@ -13,7 +13,7 @@
     ./colorizer.nix
     ./telescope.nix
     ./indent_blankline.nix
-    ./lsp_signature.nix
+    # ./lsp_signature.nix
   ];
 
   plugins = {
@@ -22,6 +22,6 @@
   };
 
   extraConfigLua = /* lua */ ''
-    print("It's Nvimin Time")
+    print("Don't smoke in office")
   '';
 }
