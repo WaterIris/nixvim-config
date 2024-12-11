@@ -13,6 +13,7 @@
     ./colorizer.nix
     ./telescope.nix
     ./indent_blankline.nix
+    ./lsp_signature.nix
   ];
 
   plugins = {
