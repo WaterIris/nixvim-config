@@ -6,6 +6,8 @@
       clangd.enable = true; 
       nil_ls.enable = true;
       lua_ls.enable = true;
+      html.enable = true;
+      eslint.enable = true;
       pylsp = {
         enable = true;
         settings.plugins = {
