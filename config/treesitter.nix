@@ -12,6 +12,10 @@
         "vimdoc"
         "query"
         "nix"
+        "typescript"
+        "html"
+        "css"
+        "javascript"
       ];
 
       highlight.enable = true;
