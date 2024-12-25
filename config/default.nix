@@ -13,6 +13,7 @@
     ./colorizer.nix
     ./telescope.nix
     ./indent_blankline.nix
+    ./type_script_tools.nix
     # ./lsp_signature.nix
   ];
 
